@@ -7,7 +7,8 @@ Usage instructions:
 * You will need the `pyautogui` library to allow keyboard/mouse inputs: `pip install pyautogui`
 2. Upload the code to the arduino first, and then close the arduino IDE: serial communication requires the COM port to be available and both programs cannot be run simultaneously.
 3. In the python script, change the variable `comport` to be your device's port number. 
-4. Execute the python script by running: `py script.py`
+4. Execute the python script by running: `py script.py` 
+5. To stop the code, press `CTRL` + `C`
 
 # Demo Video
 https://github.com/Joseph-T-Nguyen/Auto-Alt-Tab/assets/129492079/d650bf42-2612-47bf-8d5f-3106b1257355
