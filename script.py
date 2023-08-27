@@ -12,7 +12,8 @@ signal_character = b'A' # 'A' is the signal from arduino side
                         # it's important to handle the data types 
                         # correctly on both the sending and receiving ends.
 
-ser = serial.Serial("COM7", 9600);
+comport = "COM7"        # CHANGE THIS 
+ser = serial.Serial(comport, 9600);  
 
 while True:
     if ser.read() == signal_character:
